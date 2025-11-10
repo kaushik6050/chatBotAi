@@ -1,0 +1,13 @@
+pip~=25.3
+future~=0.18.3
+numpy~=2.0.2
+setuptools~=78.1.1
+pytz~=2025.1
+wheel~=0.38.1
+pandas~=2.2.3
+# Use compatible release operator (installs latest 3.x.y)
+nltk~=3.9.0
+# Use range operators (installs latest 1.x.y but not 2.0.0 or higher)
+scikit-learn>=1.0.0,<2.0.0
+openai
+transformers
